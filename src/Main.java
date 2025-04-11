@@ -162,7 +162,7 @@ public class Main {
         System.out.println(plant3.getName() + ", " + plant3.getLatinName() + ", " + plant3.getAnnual() + ", " + plant3.getContinent() + ", " + plant3.getHeight() + ", " + plant3.getEdible());
 
         System.out.println("=======================================");
-        
+
         ArrayList<Plant> plants = new ArrayList<>();
         plants.add(plant);
         plants.add(plant1);
