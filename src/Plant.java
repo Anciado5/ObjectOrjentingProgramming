@@ -13,8 +13,12 @@ public class Plant {
 
     @Override
     public String toString(){
-        return "Name:" + this.name + ", Latin name:" + this.latinName + ", Annual:" + this.annual + ", Continent:" + this.continent
-                + ", Height:" + this.height + ", Edible:" + this.edible;
+        return "Name:" + this.name +
+                ", Latin name:" + this.latinName +
+                ((this.annual) ? ", vienmetis" : ", daugiametis") +
+                ", Continent:" + this.continent +
+                ", Height:" + this.height +
+                ((this.edible) ? ", valgomas" : ", nevalgomas");
     }
 
     private String name;//++
